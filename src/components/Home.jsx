@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div className="md:w-1/2">
               <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
-                Lets Learn and Earn <span className='text-brandPrimary leading-snug'>from 4 years</span>
+                React and Tailwind CSS <span className='text-brandPrimary leading-snug'>by vite</span>
               </h1>
               <p className="text-neutralGrey text-base mb-8">Where to grow your business as a photographer: site or social media?</p>
               <button
