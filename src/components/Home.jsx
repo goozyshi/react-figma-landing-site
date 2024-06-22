@@ -13,7 +13,7 @@ const Home = () => {
               <img src={banner1} />
             </div>
             <div className="md:w-1/2">
-              <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
+              <h1 className="text-xl md:text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
                 Lessons and insights <span className='text-brandPrimary leading-snug'>from 8 years</span>
               </h1>
               <p className="text-neutralGrey text-base mb-8">Where to grow your business as a photographer: site or social media?</p>
@@ -27,7 +27,7 @@ const Home = () => {
               <img src={banner1} />
             </div>
             <div className="md:w-1/2">
-              <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
+              <h1 className="text-xl md:text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
                 React and Tailwind CSS <span className='text-brandPrimary leading-snug'>by vite</span>
               </h1>
               <p className="text-neutralGrey text-base mb-8">Where to grow your business as a photographer: site or social media?</p>
@@ -41,7 +41,7 @@ const Home = () => {
               <img src={banner1} />
             </div>
             <div className="md:w-1/2">
-              <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
+              <h1 className="text-xl md:text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
                 Learn and Earn Money <span className='text-brandPrimary leading-snug'>from 4 Month</span>
               </h1>
               <p className="text-neutralGrey text-base mb-8">Where to grow your business as a photographer: site or social media?</p>

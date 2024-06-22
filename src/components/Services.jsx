@@ -1,25 +1,35 @@
 import React from 'react'
 
+import membership from '~/assets/icons/membership.png'
+import national from '~/assets/icons/national.png'
+import club from '~/assets/icons/club.png'
 
+import company1 from '~/assets/company1.png'
+import company2 from '~/assets/company2.png'
+import company3 from '~/assets/company3.png'
+import company4 from '~/assets/company4.png'
+import company5 from '~/assets/company5.png'
+import company6 from '~/assets/company6.png'
+import company7 from '~/assets/company7.png'
 const Services = () => {
   const services = [
     {
       id: 1, 
       title: 'Membership Organisations',
       desc: 'Our membership management software provides full automation of membership renewals and payments',
-      icon:'/src/assets/icons/membership.png'
+      icon: membership
     },
     {
       id: 2, 
       title: 'National Associations',
       desc: 'Our membership management software provides full automation of membership renewals and payments',
-      icon:'/src/assets/icons/national.png'
+      icon: national
     },
     {
       id: 3, 
       title: 'Clubs And Groups',
       desc: 'Our membership management software provides full automation of membership renewals and payments',
-      icon:'/src/assets/icons/club.png'
+      icon: club
     },
   ]
   return (
@@ -30,13 +40,13 @@ const Services = () => {
 
         {/* logos */}
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src="/src/assets/company1.png" alt="" />
-          <img src="/src/assets/company2.png" alt="" />
-          <img src="/src/assets/company3.png" alt="" />
-          <img src="/src/assets/company4.png" alt="" />
-          <img src="/src/assets/company5.png" alt="" />
-          <img src="/src/assets/company6.png" alt="" />
-          <img src="/src/assets/company7.png" alt="" />
+          <img src={company1} alt="" />
+          <img src={company2} alt="" />
+          <img src={company3} alt="" />
+          <img src={company4} alt="" />
+          <img src={company5} alt="" />
+          <img src={company6} alt="" />
+          <img src={company7} alt="" />
         </div>
       </div>
       {/* services info */}
