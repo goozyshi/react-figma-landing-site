@@ -3,3 +3,10 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+header {
+  z-index: 10001 !important;
+}
+
+.btn-primary {
+  @apply bg-brandPrimary px-7 py-2 text-white rounded hover:bg-neutralDGray transition-all duration-300 hover:-translate-y-4
+}
