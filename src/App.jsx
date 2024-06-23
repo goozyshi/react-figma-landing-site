@@ -4,7 +4,9 @@ import Home from '~/components/Home'
 import Services from '~/components/Services'
 import About from '~/components/About'
 import Products from '~/components/Products'
-
+import Blog from '~/components/Blog'
+import Newsletter from '~/components/Newsletter'
+import Myfooter from '~/components/Myfooter'
 function App() {
 	return (
 		<>
@@ -13,6 +15,9 @@ function App() {
 			<Services/>
 			<About/>
 			<Products/>
+			<Blog/>
+			<Newsletter/>
+			<Myfooter/>
 		</>
 	)
 }

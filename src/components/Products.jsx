@@ -13,14 +13,14 @@ import tesla from '~/assets/tesla.png'
 const Products = () => {
   return (
     <div>
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8">
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id='product'>
         <div className='md:w-11/12 ma-auto flex flex-col md:flex-row justify-between items-center'>
           <div className='md:w-1/3'>
             <img src={aboutImg} alt="" className='md:w-[40rem] w-[20rem]'/>
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGray font-semibold mb-4 md:w-4/5">How to design your site footer like we did</h2>
-            <p className='md:w-3/4 text-sm mb-8 text-neutralGrey'>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+            <p className='md:w-3/4 text-sm mb-8 text-neutralGray'>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
             </p>
             <button className="btn-primary mt-4">Learn More</button>
           </div> 

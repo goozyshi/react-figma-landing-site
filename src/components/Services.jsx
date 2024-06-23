@@ -33,7 +33,7 @@ const Services = () => {
     },
   ]
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-3xl max-auto">
+    <div className="md:px-14 px-4 py-16 max-w-screen-3xl max-auto" id='service'>
       <div className="text-center my-8">
         <h2 className="text-4xl text-neutralDGray font-semibold mb-2">Our Clients</h2>
         <p className="text-neatralDGrey">We have been working with some Fortune 500+ clients</p>
@@ -69,7 +69,7 @@ const Services = () => {
                     <img src={item.icon} alt=""  className='-ml-5'/>
                   </div>
                   <h4 className="text-2xl font-bold text-neutralDGray mb-2 px-2">{item.title}</h4>
-                  <p className="text-sm text-neutralGrey">{item.desc}</p>
+                  <p className="text-sm text-neutralGray">{item.desc}</p>
                 </div>
               </div>
             )
