@@ -33,7 +33,7 @@ const Services = () => {
     },
   ]
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-4xl max-auto">
+    <div className="md:px-14 px-4 py-16 max-w-screen-3xl max-auto">
       <div className="text-center my-8">
         <h2 className="text-4xl text-neutralDGray font-semibold mb-2">Our Clients</h2>
         <p className="text-neatralDGrey">We have been working with some Fortune 500+ clients</p>
