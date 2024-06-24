@@ -4,6 +4,8 @@ import { Carousel } from "flowbite-react";
 import banner1 from '~/assets/banner1.png'
 
 const Home = () => {
+  // 打印1
+  
   return (
     <div className='bg-neutralSilver' id='home'>
       <div className='px-4 lg:px-4 max-w-screen-2xl mx-auto min-h-screen h-screen'>
